@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thread Project</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700"
+      rel="stylesheet"
+    />
+    <!--CSS style-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="mystyle.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="col-4 site-logo aos-init aos-animate" data-aos="fade">
+          <a href="index.html" class="animsition-link text-body-secondary"
+            >World Travel</a
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./vacation.html">Vacation Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customer.html"
+                >Customer Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end of nav-->
+
+    <!--header here-->
+    <div class="bgimg">
+      <div class="row justify-content-center align-items-center content-mid">
+        <div class="col-md-10 text-center">
+          <h1 class="top-heading mb-4 aos-init aos-animate" data-aos="fade-up">
+            Travel Packages
+          </h1>
+          <h4
+            class="sub-heading mb-8 aos-init aos-animate"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Where is your dream vacation? Explore our
+            <a href="./vacation.html" target="_blank">Vacation Package</a> and
+            share!
+          </h4>
+        </div>
+      </div>
+    </div>
+    <!--End of header-->
+
+    <!-- Tab content -->
+    <div class="container my-5">
+      <div class="tabs">
+        <button class="tab active" onclick="openTab(event, 'tickets')">
+          Featured Tickets
+        </button>
+        <button class="tab" onclick="openTab(event, 'reviews')">
+          Customer Reviews
+        </button>
+      </div>
+
+      <!-- Tickets Content -->
+      <div id="tickets" class="tab-content active">
+        <div class="row mt-4">
+          <!-- Ticket 1 -->
+          <div class="col-md-4">
+            <div class="ticket-card">
+              <img
+                src="./images/view1.avif"
+                alt="Australia"
+                class="destination-img w-100 mb-3"
+              />
+              <h4 class="ticket-title">Serene Forest Retreat</h4>
+              <p class="text-muted">
+                Escape to lush green forests where towering trees create a
+                natural canopy.
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <span class="ticket-price">$899</span>
+                <span class="badge bg-success">Available</span>
+              </div>
+              <a href="./vacation.html" class="btn btn-outline-primary btn-sm"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- Ticket 2 -->
+          <div class="col-md-4">
+            <div class="ticket-card">
+              <img
+                src="./images/view.2.avif"
+                alt="China"
+                class="destination-img w-100 mb-3"
+              />
+              <h4 class="ticket-title">Majestic Mountain Getaway</h4>
+              <p class="text-muted">
+                Experience breathtaking mountain vistas with crisp air and
+                stunning landscapes.
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <span class="ticket-price">$1299</span>
+                <span class="badge bg-success">Available</span>
+              </div>
+              <a href="./vacation.html" class="btn btn-outline-primary btn-sm"
+                >View Details</a
+              >
+            </div>
+          </div>
+
+          <!-- Ticket 3 -->
+          <div class="col-md-4">
+            <div class="ticket-card">
+              <img
+                src="./images/UK.avif"
+                alt="UK"
+                class="destination-img w-100 mb-3"
+              />
+              <h4 class="ticket-title">London Eye Experience</h4>
+              <p class="text-muted">
+                Enjoy panoramic views of London from above
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <span class="ticket-price">$45</span>
+                <span class="badge bg-warning text-dark">Limited</span>
+              </div>
+              <a href="./vacation.html" class="btn btn-outline-primary btn-sm"
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="./vacation.html" class="view-more">View All Packages →</a>
+        </div>
+      </div>
+
+      <!-- Reviews Content -->
+      <div id="reviews" class="tab-content">
+        <div class="row mt-4">
+          <!-- Review 1 -->
+          <div class="col-md-6">
+            <div class="review-card">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="review-author">John Doe</span>
+                <span class="review-date">January 15, 2025</span>
+              </div>
+              <div class="star-rating">★★★★★</div>
+              <p>
+                "The Australia package was amazing! The tour guides were
+                knowledgeable and the accommodations were top-notch. Will
+                definitely book with World Travel again!"
+              </p>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="col-md-6">
+            <div class="review-card">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="review-author">Jane Smith</span>
+                <span class="review-date">February 3, 2025</span>
+              </div>
+              <div class="star-rating">★★★★☆</div>
+              <p>
+                "Great experience in China! The only downside was the weather
+                during our visit, but that's no fault of the travel agency.
+                Overall very satisfied."
+              </p>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="col-md-6">
+            <div class="review-card">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="review-author">Michael Brown</span>
+                <span class="review-date">January 28, 2025</span>
+              </div>
+              <div class="star-rating">★★★★★</div>
+              <p>
+                "London package exceeded expectations. The hotel location was
+                perfect and the guided tours were very informative. Highly
+                recommend!"
+              </p>
+            </div>
+          </div>
+
+          <!-- Review 4 -->
+          <div class="col-md-6">
+            <div class="review-card">
+              <div class="d-flex justify-content-between mb-2">
+                <span class="review-author">Sarah Johnson</span>
+                <span class="review-date">December 20, 2024</span>
+              </div>
+              <div class="star-rating">★★★★☆</div>
+              <p>
+                "Enjoyed the South Africa safari package. The wildlife viewing
+                was incredible. Only suggestion is to provide more detailed
+                packing lists."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="./contact.html" class="view-more">Write a Review →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Bar Section (optional) -->
+    <div class="container my-5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mb-4">Find Your Next Adventure</h5>
+          <form id="ticketForm" class="row g-3">
+            <div class="col-md-4">
+              <label for="destination" class="form-label">Destination</label>
+              <input
+                type="text"
+                class="form-control"
+                id="destination"
+                placeholder="Where to?"
+              />
+            </div>
+            <div class="col-md-3">
+              <label for="travelDate" class="form-label">Date</label>
+              <input type="date" class="form-control" id="travelDate" />
+            </div>
+            <div class="col-md-3">
+              <label for="travelers" class="form-label">Travelers</label>
+              <input
+                type="number"
+                class="form-control"
+                id="travelers"
+                min="1"
+                value="1"
+              />
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+              <button type="submit" class="btn btn-primary w-100">
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-white mb-3">World Travel</h5>
+            <p class="text-grey">
+              Creating unforgettable travel experiences since 2010. Our expert
+              team curates the best vacation packages worldwide.
+            </p>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Quick Links</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link px-0">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./vacation.html" class="nav-link px-0">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a href="./customer.html" class="nav-link px-0">Register</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Support</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link px-0">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-white mb-3">Subscribe</h6>
+            <p class="text-grey mb-3">
+              Get exclusive travel deals and inspiration delivered to your
+              inbox.
+            </p>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+              <button class="btn btn-outline-primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 text-white" />
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0 text-white">
+              © 2025 World Travel. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End of footer-->
+
+    <!--Boostrap JS-->
+    <script>
+      // Tab switching functionality
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].classList.remove("active");
+        }
+        tablinks = document.getElementsByClassName("tab");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active");
+        }
+        document.getElementById(tabName).classList.add("active");
+        evt.currentTarget.classList.add("active");
+      }
+
+      // Scroll effect for navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("sc", window.scrollY > 50);
+      });
+    </script>
+  </body>
+</html>

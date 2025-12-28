@@ -1,0 +1,14 @@
+{
+  "name": "threadproject-main",
+  "version": "1.0.0",
+  "description": "Phase 1 work distribution",
+  "main": "tab.js",
+  "scripts": {
+    "start": "index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

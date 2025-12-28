@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - World Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700"
+      rel="stylesheet"
+    />
+    <!--CSS style-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="mystyle.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="col-4 site-logo">
+          <a href="index.html" class="text-body-secondary">World Travel</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./vacation.html">Vacation Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customer.html"
+                >Customer Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="container-home bgimg2">
+      <div class="row justify-content-center align-items-center content-mid">
+        <div class="col-md-10 text-center">
+          <h1 class="top-heading mb-4">Join us to Explore</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="container register-container">
+      <p class="sub-heading mb-5">
+        Create your account and start planning your next adventure
+      </p>
+      <form class="registerform">
+        <!-- Personal Info Section -->
+        <div class="form-section">
+          <h3 class="form-section-title">Personal Information</h3>
+          <div class="form-row">
+            <div class="form-col">
+              <label for="first-name" class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                placeholder="Jolly"
+              />
+            </div>
+            <div class="form-col">
+              <label for="last-name" class="form-label">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="last-name"
+                placeholder="Warner"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Birthday</label>
+            <div class="date-select">
+              <select name="birthday_month" class="form-select">
+                <option value="0" selected>Month</option>
+                <option value="1">Jan</option>
+                <option value="2">Feb</option>
+                <option value="3">Mar</option>
+                <option value="4">Apr</option>
+                <option value="5">May</option>
+                <option value="6">Jun</option>
+                <option value="7">Jul</option>
+                <option value="8">Aug</option>
+                <option value="9">Sep</option>
+                <option value="10">Oct</option>
+                <option value="11">Nov</option>
+                <option value="12">Dec</option>
+              </select>
+              <select name="birthday_day" class="form-select">
+                <option value="0" selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">...</option>
+              </select>
+              <select name="birthday_year" class="form-select">
+                <option value="0" selected>Year</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <label class="form-label">Gender</label>
+            <div class="gender-options">
+              <label class="gender-option">
+                <input type="radio" name="gender" value="female" />
+                Female
+              </label>
+              <label class="gender-option">
+                <input type="radio" name="gender" value="male" />
+                Male
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Info Section -->
+        <div class="form-section">
+          <h3 class="form-section-title">Contact Information</h3>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              class="form-control"
+              placeholder="123-456-7890"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label class="form-label">Address</label>
+            <div class="address-group">
+              <div class="address-group-full">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Street Address"
+                />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="City" />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Province"
+                />
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Country" />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Postal Code"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Account Info Section -->
+        <div class="form-section">
+          <h3 class="form-section-title">Account Information</h3>
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="userid" class="form-label">User ID</label>
+            <input
+              type="text"
+              id="userid"
+              class="form-control"
+              placeholder="userid"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              id="password"
+              class="form-control"
+              placeholder="••••••••"
+            />
+          </div>
+
+          <div class="form-group mt-3">
+            <label for="confirm-password" class="form-label"
+              >Confirm Password</label
+            >
+            <input
+              type="password"
+              id="confirm-password"
+              class="form-control"
+              placeholder="••••••••"
+            />
+          </div>
+        </div>
+
+        <!-- Form Actions -->
+        <div class="form-actions">
+          <button
+            type="reset"
+            class="btn btn-outline-primary"
+            style="flex: 0.5"
+          >
+            Reset
+          </button>
+          <button type="submit" class="btn btn-primary btn-submit">
+            Create Account
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!--Footer-->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-white mb-3">World Travel</h5>
+            <p class="text-grey">
+              Creating unforgettable travel experiences since 2010. Our expert
+              team curates the best vacation packages worldwide.
+            </p>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Quick Links</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link px-0">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./vacation.html" class="nav-link px-0">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a href="./customer.html" class="nav-link px-0">Register</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Support</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link px-0">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-white mb-3">Subscribe</h6>
+            <p class="text-grey mb-3">
+              Get exclusive travel deals and inspiration delivered to your
+              inbox.
+            </p>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+              <button class="btn btn-outline-primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 text-white" />
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0 text-white">
+              © 2025 World Travel. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End of footer-->
+
+    <!--Boostrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./tab.js"></script>
+    <!--end of JS for Boostrap-->
+  </body>
+</html>

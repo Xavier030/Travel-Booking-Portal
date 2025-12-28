@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Abril+Fatface:400,700"
+      rel="stylesheet"
+    />
+    <title>Vacation Package - World Travel</title>
+    <!--CSS style-->
+    <link href="mystyle.css" rel="stylesheet" media="screen" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--end of css style-->
+  </head>
+  <link rel="stylesheet" href="./mystyle.css" />
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="site-logo">
+          <a href="index.html">World Travel</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./vacation.html">Vacation Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customer.html"
+                >Customer Registration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-home bgimg1">
+      <div class="row justify-content-center w-100">
+        <div class="col-md-10">
+          <h1 class="top-heading">Unforgettable Vacation Packages</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bundle Section -->
+    <div class="container">
+      <div class="heading">
+        <h3>Bundle & Save in Top Destinations</h3>
+        <p>
+          Exclusive deals and discounts on our most popular vacation packages.
+          Prices updated daily - book now for the best rates!
+        </p>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="destinationCarousel"
+      class="carousel slide container"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/australia.avif"
+            class="d-block w-100"
+            alt="Australia"
+          />
+          <div class="carousel-caption">
+            <h5 style="color: rgba(250, 229, 153, 0.772)">Australia</h5>
+            <p style="color: antiquewhite">
+              Dive with coral in the Great Barrier Reef, converse with stars
+              above Uluru's red rock, where wild nature and urban elegance
+              intertwine in a southern wonderland.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/china.avif" class="d-block w-100" alt="China" />
+          <div class="carousel-caption">
+            <h5 style="color: rgba(250, 229, 153, 0.772)">China</h5>
+            <p style="color: antiquewhite">
+              The Forbidden City's red walls embrace Zhangjiajie's fairyland,
+              from modern Shanghai to Dunhuang's flying apsaras—5,000 years of
+              civilization and natural grandeur await.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/south africa.avif"
+            class="d-block w-100"
+            alt="South Africa"
+          />
+          <div class="carousel-caption">
+            <h5 style="color: rgba(250, 229, 153, 0.772)">South Africa</h5>
+            <p style="color: antiquewhite">
+              The Amazon's breath mingles with Machu Picchu's ancient warmth,
+              samba passion clashes with thunderous waterfalls—where nature and
+              culture reach their boiling point.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/UK.avif"
+            class="d-block w-100"
+            alt="United Kingdom"
+          />
+          <div class="carousel-caption">
+            <h5 style="color: rgba(250, 229, 153, 0.772)">United Kingdom</h5>
+            <p style="color: antiquewhite">
+              The Stonehenge's prehistoric whispers meet London Tower Bridge's
+              modern pulse, where lakeside serenity blends classic romance in
+              Britain's dual charm.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/USA.avif"
+            class="d-block w-100"
+            alt="United States"
+          />
+          <div class="carousel-caption">
+            <h5 style="color: rgba(250, 229, 153, 0.772)">United States</h5>
+            <p style="color: antiquewhite">
+              From New York's neon glow to Yellowstone's hidden wonders, the
+              Statue of Liberty's solemnity collides with Hollywood's
+              dreamscape, unlocking a wild journey through diverse cultures.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#destinationCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#destinationCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Vacation Packages -->
+    <div class="container" id="packages">
+      <div class="heading">
+        <h3>Find Your Perfect Vacation</h3>
+        <p>
+          Choose from our selection of meticulously designed vacation packages
+          tailored to every travel style
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./images/view4.avif"
+              class="card-img-top"
+              alt="Forest View"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Serene Forest Retreat</h5>
+              <p class="card-text">
+                Escape to lush green forests where towering trees create a
+                natural canopy. Ideal for nature lovers seeking tranquility.
+              </p>
+              <ul class="list-unstyled mt-3 text-muted small">
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>3 Nights Accommodation
+                </li>
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>Guided Nature Walks
+                </li>
+                <li><i class="bi bi-check-circle me-2"></i>Daily Breakfast</li>
+                <li><i class="bi bi-check-circle me-2"></i>Spa Access</li>
+              </ul>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <span class="h5 mb-0"
+                >$899<small class="text-muted">/person</small></span
+              >
+              <button class="btn btn-primary">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./images/view1.avif"
+              class="card-img-top"
+              alt="Mountain View"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Majestic Mountain Getaway</h5>
+              <p class="card-text">
+                Experience breathtaking mountain vistas with crisp air and
+                stunning landscapes. Perfect for adventure seekers.
+              </p>
+              <ul class="list-unstyled mt-3 text-muted small">
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>4 Nights Accommodation
+                </li>
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>Hiking & Mountaineering
+                </li>
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>All Meals Included
+                </li>
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>Ski Equipment Rental
+                </li>
+              </ul>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <span class="h5 mb-0"
+                >$1,299<small class="text-muted">/person</small></span
+              >
+              <button class="btn btn-primary">Explore</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="./images/view3.avif"
+              class="card-img-top"
+              alt="Seaside View"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Beach Paradise Escape</h5>
+              <p class="card-text">
+                Relax on pristine sandy beaches with turquoise waters. The ideal
+                destination for beach lovers and water sports enthusiasts.
+              </p>
+              <ul class="list-unstyled mt-3 text-muted small">
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>5 Nights Accommodation
+                </li>
+                <li>
+                  <i class="bi bi-check-circle me-2"></i>Water Sports Activities
+                </li>
+                <li><i class="bi bi-check-circle me-2"></i>Beachside Dining</li>
+                <li><i class="bi bi-check-circle me-2"></i>Sunset Cruise</li>
+              </ul>
+            </div>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center"
+            >
+              <span class="h5 mb-0"
+                >$1,499<small class="text-muted">/person</small></span
+              >
+              <button class="btn btn-primary">Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5 class="text-white mb-3">World Travel</h5>
+            <p class="text-grey">
+              Creating unforgettable travel experiences since 2010. Our expert
+              team curates the best vacation packages worldwide.
+            </p>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Quick Links</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link px-0">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./vacation.html" class="nav-link px-0">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a href="./customer.html" class="nav-link px-0">Register</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-6">
+            <h6 class="text-white mb-3">Support</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link px-0">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="text-white mb-3">Subscribe</h6>
+            <p class="text-grey mb-3">
+              Get exclusive travel deals and inspiration delivered to your
+              inbox.
+            </p>
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+              <button class="btn btn-outline-primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4 text-white" />
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0 text-white">
+              © 2025 World Travel. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("scrolled", window.scrollY > 50);
+      });
+    </script>
+  </body>
+</html>
