@@ -2,3 +2,8 @@ A homepage to welcome customers to the website, offering links and a menu to oth
 A "Contact Us" page providing contact methods such as phone numbers, email addresses, or directions to the travel agency.
 A "Vacation Packages" page listing all available vacation packages.
 A "Customer Registration" page allowing customers to create a Travel Experts account by entering their name, address (including city, province, country/region, and postal code), email address, home phone number, office phone number, user ID, and password. After verification, this information will be used to create an account for future order placements. Currently, the data is not submitted to the backend, but this page will be enhanced later to become an order page with server-side scripting and database access functionality.
+
+Step:
+
+1. cd D:\GitHub\Project\ThreadProject-main
+2. npm start
