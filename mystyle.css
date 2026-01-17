@@ -93,7 +93,7 @@ h5 {
 
 /* Content */
 .bgimg {
-  background-image: url(./images/hero_1.jpg.webp);
+  background-image: url(./images/hero_1.jpg);
   height: 400px;
   position: relative;
   /* opacity: 0.65; */
@@ -106,7 +106,7 @@ h5 {
 }
 /* header page for vacation pacakage - vacation.html */
 .bgimg1 {
-  background-image: url(./images/hero_2.jpg.webp);
+  background-image: url(./images/hero_2.jpg);
   height: 400px;
   position: relative;
   /* opacity: 0.65; */
@@ -134,7 +134,7 @@ h5 {
 
 /* header page for contact us - contact.html */
 .bgimg3 {
-  background-image: url(./images/hero_4.jpg.webp);
+  background-image: url(./images/hero_4.jpg);
   height: 400px;
   position: relative;
   /* opacity: 0.65; */
