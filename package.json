@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Phase 1 work distribution",
   "scripts": {
-    "start": "npx serve ."
+    "dev": "http-server -p 3000",
+    "start": "http-server -p 3000"
   },
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
