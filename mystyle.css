@@ -133,31 +133,21 @@ h5 {
 }
 
 /* header page for contact us - contact.html */
-.bgimg3 {
-  background-image: url(./images/hero_4.jpg);
+.contact-bg {
+  background-image: url(./images/hero_4.jpg) !important;
   height: 100% !important;
-  position: relative;
-  /* opacity: 0.65; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Libre Bodoni", serif;
-  display: flex;
-  justify-content: center;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
-/* header page for about us - team.html */
-.bgimg4 {
-  background-image: url(./images/hero_5.jpg);
+/* header page for login - login.html */
+.login-bg {
+  background-image: url(./images/hero_5.jpg) !important;
   height: 100% !important;
-  position: relative;
-  /* opacity: 0.65; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Libre Bodoni", serif;
-  display: flex;
-  justify-content: center;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 /* tab styling */
