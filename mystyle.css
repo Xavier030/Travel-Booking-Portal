@@ -137,8 +137,12 @@ h5 {
   background-image: url(./images/hero_4.jpg) !important;
   height: 100% !important;
   background-position: center !important;
+  /* opacity: 0.65; */
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  font-family: "Libre Bodoni", serif;
+  display: flex;
+  justify-content: center;
 }
 
 /* header page for login - login.html */
@@ -146,8 +150,12 @@ h5 {
   background-image: url(./images/hero_5.jpg) !important;
   height: 100% !important;
   background-position: center !important;
+  /* opacity: 0.65; */
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  font-family: "Libre Bodoni", serif;
+  display: flex;
+  justify-content: center;
 }
 
 /* tab styling */
