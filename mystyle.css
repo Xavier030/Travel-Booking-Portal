@@ -120,7 +120,7 @@ h5 {
 
 /* header page for Registration - customer.html */
 .bgimg2 {
-  background-image: url(./images/hero_3.jpg.webp);
+  background-image: url(./images/hero_3.jpg);
   height: 400px;
   position: relative;
   /* opacity: 0.65; */
